@@ -10,3 +10,4 @@ El agente de reflejo simple considero que falla porque solamente utiliza reglas 
 
 Por ultimo como se pidió probé al alejar un pit de la casilla inicial. En la configuración original había un pit en [1,2], inmediatamente junto a la posición inicial. Con esta configuración, el agente basado en modelo terminó sin oro después de 200 pasos y obtuvo -200 puntos. Moví ese pit a una posición más alejada, en [3,4], manteniendo los demás partes de la cueva y ya con esto el agente basado en modelo consiguió recoger el oro y salir de la cueva en 21 pasos, con una puntuación de 979. La ubicación de los pits SI afecta las percepciones iniciales y las decisiones del agente, entonces al alejar el pit de la salida, el agente tuvo una ruta más favorable y pudo encontrar un camino seguro hacia el oro y de regreso. 
 
+**Jorge Lopez**
