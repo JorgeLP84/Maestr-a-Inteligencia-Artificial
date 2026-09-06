@@ -73,7 +73,7 @@ El grafo quedaría de la siguiente manera: (Perdon Profesor no soy muy bueno con
 | **DLS, limit=5** | success | Oradea -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Hirsova | 5 | 644 km | 11 | 24 |
 | **IDS** | success | Oradea -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Hirsova | 5 | 644 km | 36 | 97 |
 
-**3. Reporte de entendimiento**
+**3. Reporte de lo aprendido**
 
 Si, BFS encontró una ruta de menos carreteras, mientras que UCS encontró una ruta con menos KMS. El resultado fue que BFS encontró una ruta de 5 carreteras y 644 km, mientras que UCS encontró una ruta de 6 carreteras y 612 km. En este caso, los algoritmos no coinciden porque buscan mejorar criterios diferentes: BFS busca minimizar el numero de carreteras y UCS busca optimizar el costo acumulado de cada carretera. Podemos observar que en este caso, la opción de menos carreteras no es la que tiene menos KMS, ya que UCS uso una carretera adicional pero en su recorrido en KMS fue menor. 
 
