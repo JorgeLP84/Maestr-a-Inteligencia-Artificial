@@ -1,6 +1,10 @@
 **1.-Anexar archivos de notebooks modificadas**
 
+Se adjuntaron en carpeta los archivos IPYNB, los modificados tienen sufijo JLOPEZ.
+
 **2.-Captura de Curvas**
+
+Se adjuntaron en carpeta, los Keras modificados con sufijo JLOPEZ y el Numpy como modif. 
 
 **3.- Reporte de lo aprendido**
 
