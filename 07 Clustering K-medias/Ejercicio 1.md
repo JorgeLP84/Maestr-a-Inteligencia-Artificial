@@ -10,6 +10,7 @@ Se adjuntan capturas de los 4 pares de resultados (Original y Modificado)
 
 **3.-5 Centros y 5 STD**
 
+Estos fueron los centros:
 | X | Y |
 |---:|---:|
 | 0.7 | 2.7 |
@@ -17,6 +18,9 @@ Se adjuntan capturas de los 4 pares de resultados (Original y Modificado)
 | -3.3 | 2.0 |
 | -3.1 | -0.3 |
 | -0.7 | -0.6 |
+
+Estos fueron los STD:
+0.4, 0.3, 0.1, 0.1, 0.1
 
 **4.- Reporte de lo aprendido**
 
