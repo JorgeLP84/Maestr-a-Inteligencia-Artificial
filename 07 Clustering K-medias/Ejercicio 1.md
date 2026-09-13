@@ -1,10 +1,22 @@
-# Ejercicio 1 — Cambiar la imagen de predicción en YOLO
+# Ejercicio 1 — Separar los blobs y volver a elegir (k)
 
 **1.-Enlace Colab**
 
+Se adjuntar archivos IPYNB.
+
 **2.-Anexar archivos**
 
+Se adjuntan capturas de los 4 pares de resultados (Original y Modificado)
+
 **3.-5 Centros y 5 STD**
+
+| X | Y |
+|---:|---:|
+| 0.7 | 2.7 |
+| -1.3 | 3.1 |
+| -3.3 | 2.0 |
+| -3.1 | -0.3 |
+| -0.7 | -0.6 |
 
 **4.- Reporte de lo aprendido**
 
@@ -15,4 +27,21 @@ Para el segundo ejercicio mantuve los mismos parámetros y los mismos 2000 punto
 La gráfica de silueta también dio como resultado más alto k=5. Esto significa que, después de separar los blobs, tanto el codo como la silueta coinciden en que cinco grupos es una buena opción. En este caso, el resultado coincide con los cinco blobs que fueron generados originalmente.
 
 Este ejercicio me permitió observar que no es suficiente con indicar cuántos centros se utilizaron para generar los datos. También es importante qué tan separados están los grupos y qué tan dispersos son sus puntos. Si el codo hubiera seguido indicando k=4, habría sido necesario separar todavía más los centros o hacer los grupos más compactos usando un blob_std menor.
+
+Resultados de las ejecuciones:
+
+| Métrica | Original | Modificado |
+|---|---|---|
+| Inercia k=3 | 653.217 | 2109.319 |
+| Inercia k=5 | 224.074 | 215.915 |
+| Inercia k=8 | 127.131 | 122.220 |
+| Codo | k=4 | k=5 |
+| Silueta máxima | k=4 (~0.689) | k=5 |
+
+
+**5.- Evidencia COlab**
+
+Se adjuntar capturas de pantalla Entorno
+
+
 
